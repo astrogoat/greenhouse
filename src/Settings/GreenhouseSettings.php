@@ -3,12 +3,11 @@
 namespace Astrogoat\Greenhouse\Settings;
 
 use Helix\Lego\Settings\AppSettings;
-use Astrogoat\Greenhouse\Actions\GreenhouseAction;
 use Illuminate\Validation\Rule;
 
 class GreenhouseSettings extends AppSettings
 {
-     public string $business;
+    public string $business;
 
     public function rules(): array
     {

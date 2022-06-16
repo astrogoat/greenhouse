@@ -26,9 +26,17 @@ composer require astrogoat/greenhouse
 
 ## Usage
 
+Include the script in your Blade file:
+
 ```php
-$greenhouse = new Astrogoat\Greenhouse();
-echo $greenhouse->echoPhrase('Hello, Astrogoat!');
+    @include('greenhouse::script')
+```
+
+When enabled this will add the greenhouse javascript. You now have access to greenhouse's placement elements.
+
+Should you want to use the greenhouse element you can also add the following to a page, or section:
+```php
+    @include('greenhouse::main')
 ```
 
 ## Testing

@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Greenhouse\Tests;
 
+use Astrogoat\Greenhouse\GreenhouseServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Greenhouse\GreenhouseServiceProvider;
 
 class TestCase extends Orchestra
 {

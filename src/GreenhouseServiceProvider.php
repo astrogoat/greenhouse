@@ -2,11 +2,11 @@
 
 namespace Astrogoat\Greenhouse;
 
+use Astrogoat\Greenhouse\Settings\GreenhouseSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\LegoManager;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Astrogoat\Greenhouse\Settings\GreenhouseSettings;
 
 class GreenhouseServiceProvider extends PackageServiceProvider
 {

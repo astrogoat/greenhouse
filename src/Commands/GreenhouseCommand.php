@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Astrogoat\Greenhouse\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class GreenhouseCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'greenhouse';
 
     public $description = 'My command';
 
